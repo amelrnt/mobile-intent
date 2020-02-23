@@ -28,4 +28,14 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this,ImplicitIntentActivity.class);
         startActivity(intent);
     }
+
+    public void handleBundleIntent(View view) {
+        Intent intent = new Intent(this,BundleActivity.class);
+        startActivity(intent);
+    }
+
+    public void handleParcleabel(View view) {
+        Intent intent = new Intent(this, ParcelableActivity.class);
+        startActivity(intent);
+    }
 }
